@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MyTabBarViewController.h"
+#import "HomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,7 +18,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = [[MyTabBarViewController alloc] init];
+    [self.window makeKeyWindow];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(switchRootViewController) name:@"rootViewController" object:nil];
+    
     return YES;
+}
+
+-(void)switchRootViewController
+{
+    self.window.rootViewController = [[HomeViewController alloc] init];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

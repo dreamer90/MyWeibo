@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377661ED1D07BF8E00E441F0 /* MyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 377661EC1D07BF8E00E441F0 /* MyConst.m */; };
+		377661F11D07C24600E441F0 /* MyStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 377661F01D07C24600E441F0 /* MyStatus.m */; };
+		377661F51D07F2C700E441F0 /* StatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 377661F41D07F2C700E441F0 /* StatusTableViewCell.m */; };
+		3796918E1D065A0F0026DEFE /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796918D1D065A0F0026DEFE /* BaseTableViewController.m */; };
+		379691911D065AE10026DEFE /* VisitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 379691901D065AE10026DEFE /* VisitorView.m */; };
+		3796919B1D06612F0026DEFE /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796919A1D06612F0026DEFE /* UIView+XMGExtension.m */; };
+		3796919F1D066AF80026DEFE /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3796919E1D066AF80026DEFE /* DiscoverViewController.m */; };
+		379691A21D06A4FA0026DEFE /* OAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379691A11D06A4FA0026DEFE /* OAuthViewController.m */; };
+		379691A81D06C6540026DEFE /* NetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 379691A71D06C6540026DEFE /* NetworkTools.m */; };
+		379691AB1D06CBFF0026DEFE /* UserAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 379691AA1D06CBFF0026DEFE /* UserAccount.m */; };
+		379691AE1D06DC8E0026DEFE /* AccountTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 379691AD1D06DC8E0026DEFE /* AccountTools.m */; };
 		37DAF9921D056DD600507106 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9911D056DD600507106 /* main.m */; };
 		37DAF9951D056DD600507106 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9941D056DD600507106 /* AppDelegate.m */; };
 		37DAF9981D056DD600507106 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9971D056DD600507106 /* ViewController.m */; };
@@ -15,6 +26,12 @@
 		37DAF9A01D056DD600507106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37DAF99E1D056DD600507106 /* LaunchScreen.storyboard */; };
 		37DAF9AB1D056DD600507106 /* MyWeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9AA1D056DD600507106 /* MyWeiboTests.m */; };
 		37DAF9B61D056DD600507106 /* MyWeiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9B51D056DD600507106 /* MyWeiboUITests.m */; };
+		37DAF9CE1D05770100507106 /* MyTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9CD1D05770100507106 /* MyTabBarViewController.m */; };
+		37DAF9D11D0577B200507106 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9D01D0577B200507106 /* HomeViewController.m */; };
+		37DAF9D71D05780500507106 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9D61D05780500507106 /* MessageViewController.m */; };
+		37DAF9DA1D05782800507106 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9D91D05782800507106 /* ProfileViewController.m */; };
+		37DAF9DD1D057E8400507106 /* MyNavgationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DAF9DC1D057E8400507106 /* MyNavgationViewController.m */; };
+		8650F009FC740E9C06760D93 /* libPods-MyWeibo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D35DCB22042CF39DE078ED3 /* libPods-MyWeibo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00DA79E38A94ADE4BF941955 /* Pods-MyWeibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeibo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyWeibo/Pods-MyWeibo.debug.xcconfig"; sourceTree = "<group>"; };
+		377661EB1D07BF8E00E441F0 /* MyConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyConst.h; sourceTree = "<group>"; };
+		377661EC1D07BF8E00E441F0 /* MyConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyConst.m; sourceTree = "<group>"; };
+		377661EF1D07C24600E441F0 /* MyStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStatus.h; sourceTree = "<group>"; };
+		377661F01D07C24600E441F0 /* MyStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStatus.m; sourceTree = "<group>"; };
+		377661F31D07F2C700E441F0 /* StatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusTableViewCell.h; sourceTree = "<group>"; };
+		377661F41D07F2C700E441F0 /* StatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusTableViewCell.m; sourceTree = "<group>"; };
+		3796918C1D065A0F0026DEFE /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		3796918D1D065A0F0026DEFE /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		3796918F1D065AE10026DEFE /* VisitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisitorView.h; sourceTree = "<group>"; };
+		379691901D065AE10026DEFE /* VisitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisitorView.m; sourceTree = "<group>"; };
+		379691991D06612F0026DEFE /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		3796919A1D06612F0026DEFE /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		3796919C1D0661540026DEFE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3796919D1D066AF80026DEFE /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		3796919E1D066AF80026DEFE /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		379691A01D06A4FA0026DEFE /* OAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthViewController.h; sourceTree = "<group>"; };
+		379691A11D06A4FA0026DEFE /* OAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthViewController.m; sourceTree = "<group>"; };
+		379691A61D06C6540026DEFE /* NetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTools.h; sourceTree = "<group>"; };
+		379691A71D06C6540026DEFE /* NetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTools.m; sourceTree = "<group>"; };
+		379691A91D06CBFF0026DEFE /* UserAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAccount.h; sourceTree = "<group>"; };
+		379691AA1D06CBFF0026DEFE /* UserAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAccount.m; sourceTree = "<group>"; };
+		379691AC1D06DC8E0026DEFE /* AccountTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTools.h; sourceTree = "<group>"; };
+		379691AD1D06DC8E0026DEFE /* AccountTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTools.m; sourceTree = "<group>"; };
 		37DAF98D1D056DD500507106 /* MyWeibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWeibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DAF9911D056DD600507106 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37DAF9931D056DD600507106 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +92,18 @@
 		37DAF9B11D056DD600507106 /* MyWeiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyWeiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DAF9B51D056DD600507106 /* MyWeiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyWeiboUITests.m; sourceTree = "<group>"; };
 		37DAF9B71D056DD600507106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37DAF9CC1D05770100507106 /* MyTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarViewController.h; sourceTree = "<group>"; };
+		37DAF9CD1D05770100507106 /* MyTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarViewController.m; sourceTree = "<group>"; };
+		37DAF9CF1D0577B200507106 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		37DAF9D01D0577B200507106 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		37DAF9D51D05780500507106 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		37DAF9D61D05780500507106 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		37DAF9D81D05782800507106 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		37DAF9D91D05782800507106 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		37DAF9DB1D057E8400507106 /* MyNavgationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavgationViewController.h; sourceTree = "<group>"; };
+		37DAF9DC1D057E8400507106 /* MyNavgationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavgationViewController.m; sourceTree = "<group>"; };
+		3D35DCB22042CF39DE078ED3 /* libPods-MyWeibo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyWeibo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50B83344052592DCF9010747 /* Pods-MyWeibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyWeibo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyWeibo/Pods-MyWeibo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8650F009FC740E9C06760D93 /* libPods-MyWeibo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +132,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		377661EE1D07C22B00E441F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				377661EF1D07C24600E441F0 /* MyStatus.h */,
+				377661F01D07C24600E441F0 /* MyStatus.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		377661F21D07F24000E441F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				377661F31D07F2C700E441F0 /* StatusTableViewCell.h */,
+				377661F41D07F2C700E441F0 /* StatusTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		379691921D065AE90026DEFE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3796918F1D065AE10026DEFE /* VisitorView.h */,
+				379691901D065AE10026DEFE /* VisitorView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		379691931D065AF40026DEFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37DAF9CC1D05770100507106 /* MyTabBarViewController.h */,
+				37DAF9CD1D05770100507106 /* MyTabBarViewController.m */,
+				37DAF9DB1D057E8400507106 /* MyNavgationViewController.h */,
+				37DAF9DC1D057E8400507106 /* MyNavgationViewController.m */,
+				3796918C1D065A0F0026DEFE /* BaseTableViewController.h */,
+				3796918D1D065A0F0026DEFE /* BaseTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		379691981D0660DF0026DEFE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				379691991D06612F0026DEFE /* UIView+XMGExtension.h */,
+				3796919A1D06612F0026DEFE /* UIView+XMGExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		37DAF9841D056DD500507106 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +188,8 @@
 				37DAF9A91D056DD600507106 /* MyWeiboTests */,
 				37DAF9B41D056DD600507106 /* MyWeiboUITests */,
 				37DAF98E1D056DD500507106 /* Products */,
+				53215535935AF087296283A0 /* Pods */,
+				DFE61BFB000CC326E0FB7C4E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +206,14 @@
 		37DAF98F1D056DD600507106 /* MyWeibo */ = {
 			isa = PBXGroup;
 			children = (
+				37DAF9C31D05714B00507106 /* Classes */,
 				37DAF9931D056DD600507106 /* AppDelegate.h */,
 				37DAF9941D056DD600507106 /* AppDelegate.m */,
 				37DAF9961D056DD600507106 /* ViewController.h */,
 				37DAF9971D056DD600507106 /* ViewController.m */,
 				37DAF9991D056DD600507106 /* Main.storyboard */,
 				37DAF99C1D056DD600507106 /* Assets.xcassets */,
+				3796919C1D0661540026DEFE /* PrefixHeader.pch */,
 				37DAF99E1D056DD600507106 /* LaunchScreen.storyboard */,
 				37DAF9A11D056DD600507106 /* Info.plist */,
 				37DAF9901D056DD600507106 /* Supporting Files */,
@@ -140,6 +247,117 @@
 			path = MyWeiboUITests;
 			sourceTree = "<group>";
 		};
+		37DAF9C31D05714B00507106 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				37DAF9C61D05714B00507106 /* main */,
+				37DAF9C41D05714B00507106 /* Discover */,
+				37DAF9C51D05714B00507106 /* Home */,
+				37DAF9C71D05714C00507106 /* Message */,
+				37DAF9C81D05714C00507106 /* Newfeature */,
+				37DAF9C91D05714C00507106 /* OAuth */,
+				37DAF9CA1D05714C00507106 /* Profile */,
+				37DAF9CB1D05714C00507106 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		37DAF9C41D05714B00507106 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				3796919D1D066AF80026DEFE /* DiscoverViewController.h */,
+				3796919E1D066AF80026DEFE /* DiscoverViewController.m */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		37DAF9C51D05714B00507106 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				377661F21D07F24000E441F0 /* View */,
+				377661EE1D07C22B00E441F0 /* Model */,
+				37DAF9CF1D0577B200507106 /* HomeViewController.h */,
+				37DAF9D01D0577B200507106 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		37DAF9C61D05714B00507106 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				379691981D0660DF0026DEFE /* Category */,
+				379691931D065AF40026DEFE /* Controller */,
+				379691921D065AE90026DEFE /* view */,
+				377661EB1D07BF8E00E441F0 /* MyConst.h */,
+				377661EC1D07BF8E00E441F0 /* MyConst.m */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		37DAF9C71D05714C00507106 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				37DAF9D51D05780500507106 /* MessageViewController.h */,
+				37DAF9D61D05780500507106 /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		37DAF9C81D05714C00507106 /* Newfeature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Newfeature;
+			sourceTree = "<group>";
+		};
+		37DAF9C91D05714C00507106 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				379691A01D06A4FA0026DEFE /* OAuthViewController.h */,
+				379691A11D06A4FA0026DEFE /* OAuthViewController.m */,
+				379691A91D06CBFF0026DEFE /* UserAccount.h */,
+				379691AA1D06CBFF0026DEFE /* UserAccount.m */,
+				379691AC1D06DC8E0026DEFE /* AccountTools.h */,
+				379691AD1D06DC8E0026DEFE /* AccountTools.m */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		37DAF9CA1D05714C00507106 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				37DAF9D81D05782800507106 /* ProfileViewController.h */,
+				37DAF9D91D05782800507106 /* ProfileViewController.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		37DAF9CB1D05714C00507106 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				379691A61D06C6540026DEFE /* NetworkTools.h */,
+				379691A71D06C6540026DEFE /* NetworkTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		53215535935AF087296283A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00DA79E38A94ADE4BF941955 /* Pods-MyWeibo.debug.xcconfig */,
+				50B83344052592DCF9010747 /* Pods-MyWeibo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFE61BFB000CC326E0FB7C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D35DCB22042CF39DE078ED3 /* libPods-MyWeibo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +365,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37DAF9BA1D056DD600507106 /* Build configuration list for PBXNativeTarget "MyWeibo" */;
 			buildPhases = (
+				D02DB59E847BD1AEFCC2E2A1 /* 📦 Check Pods Manifest.lock */,
 				37DAF9891D056DD500507106 /* Sources */,
 				37DAF98A1D056DD500507106 /* Frameworks */,
 				37DAF98B1D056DD500507106 /* Resources */,
+				5F319DE547F97ACAF6C49BBB /* 📦 Embed Pods Frameworks */,
+				ACF47CB4D6571C8659724D9D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +486,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F319DE547F97ACAF6C49BBB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWeibo/Pods-MyWeibo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF47CB4D6571C8659724D9D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyWeibo/Pods-MyWeibo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D02DB59E847BD1AEFCC2E2A1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37DAF9891D056DD500507106 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				377661F51D07F2C700E441F0 /* StatusTableViewCell.m in Sources */,
+				37DAF9CE1D05770100507106 /* MyTabBarViewController.m in Sources */,
+				377661ED1D07BF8E00E441F0 /* MyConst.m in Sources */,
+				3796919F1D066AF80026DEFE /* DiscoverViewController.m in Sources */,
+				3796919B1D06612F0026DEFE /* UIView+XMGExtension.m in Sources */,
+				379691A21D06A4FA0026DEFE /* OAuthViewController.m in Sources */,
+				37DAF9DD1D057E8400507106 /* MyNavgationViewController.m in Sources */,
+				37DAF9DA1D05782800507106 /* ProfileViewController.m in Sources */,
+				3796918E1D065A0F0026DEFE /* BaseTableViewController.m in Sources */,
+				379691AE1D06DC8E0026DEFE /* AccountTools.m in Sources */,
 				37DAF9981D056DD600507106 /* ViewController.m in Sources */,
 				37DAF9951D056DD600507106 /* AppDelegate.m in Sources */,
+				377661F11D07C24600E441F0 /* MyStatus.m in Sources */,
+				37DAF9D11D0577B200507106 /* HomeViewController.m in Sources */,
+				379691911D065AE10026DEFE /* VisitorView.m in Sources */,
 				37DAF9921D056DD600507106 /* main.m in Sources */,
+				379691A81D06C6540026DEFE /* NetworkTools.m in Sources */,
+				379691AB1D06CBFF0026DEFE /* UserAccount.m in Sources */,
+				37DAF9D71D05780500507106 /* MessageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +696,7 @@
 		};
 		37DAF9BB1D056DD600507106 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DA79E38A94ADE4BF941955 /* Pods-MyWeibo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWeibo/Info.plist;
@@ -422,6 +708,7 @@
 		};
 		37DAF9BC1D056DD600507106 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B83344052592DCF9010747 /* Pods-MyWeibo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyWeibo/Info.plist;
@@ -496,6 +783,7 @@
 				37DAF9BC1D056DD600507106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37DAF9BD1D056DD600507106 /* Build configuration list for PBXNativeTarget "MyWeiboTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +792,7 @@
 				37DAF9BF1D056DD600507106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37DAF9C01D056DD600507106 /* Build configuration list for PBXNativeTarget "MyWeiboUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +801,7 @@
 				37DAF9C21D056DD600507106 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
